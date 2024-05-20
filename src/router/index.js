@@ -23,7 +23,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/DeclarativeView.vue')
+      component: () => import('../views/01DeclarativeView.vue')
     },
     {
       path: '/template',
@@ -31,7 +31,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/TemplateView.vue')
+      component: () => import('../views/0TemplateView.vue')
     },
     {
       path: '/attribute',
@@ -39,7 +39,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AttributeBindingView.vue')
+      component: () => import('../views/02AttributeBindingView.vue')
     },
     {
       path: '/eventlistener',
@@ -47,7 +47,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/EventListenersView.vue')
+      component: () => import('../views/03EventListenersView.vue')
     },
     {
       path: '/formbinding',
@@ -55,7 +55,15 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/FormBindingsView.vue')
+      component: () => import('../views/04FormBindingsView.vue')
+    },
+    {
+      path: '/conditionalrender',
+      name: 'conditionalrender',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/05ConditionalRenderingView.vue')
     }
   ]
 })

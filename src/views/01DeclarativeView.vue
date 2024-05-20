@@ -22,6 +22,7 @@ counter.count++
 </script>
 
 <template>
+  <!-- 在html中，不需要附加 .value，會自動unboxing -->
   <h1>{{ message }}</h1>
   <h2>{{ message.split('').reverse().join('') }}</h2>
   <p>Count is: {{ counter.count }}</p>
