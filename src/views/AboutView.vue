@@ -23,6 +23,9 @@
       <li>
         <RouterLink to="/conditionalrender">05ConditionalRenderingView</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/listrendering">06ListRendering</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
