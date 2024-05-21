@@ -41,6 +41,9 @@
       <li>
         <RouterLink to="/components">10元件</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/props">11Props</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
