@@ -96,6 +96,22 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/08LifecycleTemplateView.vue')
+    },
+    {
+      path: '/watcher',
+      name: 'watcher',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/09WatchersView.vue')
+    },
+    {
+      path: '/components',
+      name: 'components',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/10ComponentsView.vue')
     }
   ]
 })

@@ -35,6 +35,12 @@
       <li>
         <RouterLink to="/lifecycletemplate">08生命週期和模板引用</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/watcher">09偵聽器</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/components">10元件</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
