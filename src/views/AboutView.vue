@@ -44,6 +44,9 @@
       <li>
         <RouterLink to="/props">11Props</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/emits">12Emit</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
