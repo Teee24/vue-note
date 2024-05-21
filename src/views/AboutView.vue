@@ -26,6 +26,12 @@
       <li>
         <RouterLink to="/listrendering">06ListRendering</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/computedproperty">07計算屬性</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/computed">07-1計算屬性緩存vs 方法</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
