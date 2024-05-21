@@ -50,6 +50,9 @@
       <li>
         <RouterLink to="/slots">13Slots</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/practice">Class 與Style 綁定</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
