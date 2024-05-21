@@ -47,6 +47,9 @@
       <li>
         <RouterLink to="/emits">12Emit</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/slots">13Slots</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
