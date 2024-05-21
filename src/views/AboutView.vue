@@ -32,6 +32,9 @@
       <li>
         <RouterLink to="/computed">07-1計算屬性緩存vs 方法</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/lifecycletemplate">08生命週期和模板引用</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
